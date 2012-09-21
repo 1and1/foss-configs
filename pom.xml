@@ -17,11 +17,43 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/1and1/foss-parent.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/1and1/foss-parent.git</developerConnection>
-        <url>https://github.com/1and1/foss-parent</url>
+        <connection>scm:git:git://github.com/1and1/foss-configs.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/1and1/foss-configs.git</developerConnection>
+        <url>https://github.com/1and1/foss-configs</url>
     </scm>
-
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/1and1/foss-configs/issues/?sort=created&amp;state=open</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Jenkins</system>
+        <url>http://huschteguzzel.de/hudson/job/oneandone-${project.artifactId}/</url>
+    </ciManagement>
+    <developers>
+        <developer>
+            <id>mifr</id>
+            <name>Mirko Friedenhagen</name>
+            <organization>1 &amp; 1 Internet AG</organization>
+            <organizationUrl>${project.url}</organizationUrl>
+            <url>http://github.com/mfriedenhagen/</url>
+            <timezone>+1</timezone>
+            <roles>
+                <role>developer</role>
+                <role>project lead</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>mlhartme</id>
+            <name>Michael Hartmeier</name>
+            <organization>1 &amp; 1 Internet AG</organization>
+            <organizationUrl>${project.url}</organizationUrl>
+            <url>http://github.com/mlhartme/</url>
+            <timezone>+1</timezone>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
     <profiles>
         <profile>
             <id>release-sign-artifacts</id>
