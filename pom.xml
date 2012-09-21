@@ -27,7 +27,7 @@
     </issueManagement>
     <ciManagement>
         <system>Jenkins</system>
-        <url>http://huschteguzzel.de/hudson/job/oneandone-${project.artifactId}/</url>
+        <url>http://huschteguzzel.de/hudson/job/oneandone-foss-configs/</url>
     </ciManagement>
     <developers>
         <developer>
