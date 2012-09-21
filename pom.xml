@@ -10,6 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <url>https://github.com/1and1/foss-configs</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
