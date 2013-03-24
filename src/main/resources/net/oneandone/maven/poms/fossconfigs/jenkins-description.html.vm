@@ -9,7 +9,7 @@
     #if ( $devcon.url )
         <a href="$devcon.url" title="$!devcon.id">$devcon.name#roles( $devcon.roles )</a>
     #else
-        $devcon.name#roles( $decon.roles )
+        $devcon.name#roles( $devcon.roles )
     #end
 #end
 
